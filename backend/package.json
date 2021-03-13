@@ -1,0 +1,15 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "backend server for the collaborative drawing app",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "GPL-3.0-or-later",
+  "dependencies": {
+    "socket.io": "^4.0.0"
+  }
+}
