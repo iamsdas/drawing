@@ -2,12 +2,16 @@
 The aim of the project is to create a realtime collaborative drawing webapp using socket.io.
 
 # Setup
+Make sure to have [node.js](https://nodejs.org) setup in your system.
 Clone the repository:
 ```
-git clone https://github.com/iamsdas/
+git clone https://github.com/iamsdas/drawing
 ```
-Make sure to have [node.js](https://nodejs.org) setup in your system.
-
+Install packages:
+```
+cd backend
+npm install
+```
 ## Frontend
 * The frontend is created with basic html/css/js.
 * Usage: Open/Run the `frontend/index.html`
